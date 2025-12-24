@@ -1,9 +1,9 @@
-import './globals.css'
+import '../globals.css'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Preness - TOEFL ITP対策AIプラットフォーム',
-  description: 'TOEFL ITP対策に特化したAI学習プラットフォーム',
+  title: 'Preness - AI TOEFL ITP Measures',
+  description: 'AI-powered TOEFL ITP measurement platform',
 }
 
 export default function RootLayout({
@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
-      <body className="font-sans antialiased">
+      <body className="bg-gray-50 text-gray-800 font-sans">
         {children}
       </body>
     </html>
